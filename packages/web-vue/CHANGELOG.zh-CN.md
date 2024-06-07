@@ -2,6 +2,43 @@
 changelog: true
 ```
 
+## 2.55.3
+
+`2024-06-07`
+
+### 🆕 新增功能
+
+- **table:** column 增加 minWidth 属性 ([#3157](https://github.com/arco-design/arco-design-vue/pull/3157))
+
+### 🐛 问题修复
+
+- **time-picker:** 修复只读模式仍可编辑问题 ([#3173](https://github.com/arco-design/arco-design-vue/pull/3173))
+- **time-picker:** 补充 `placeholder` 类型定义 ([#3173](https://github.com/arco-design/arco-design-vue/pull/3173))
+- **input:** 修复只读状态下显示清空输入框按钮 ([#3172](https://github.com/arco-design/arco-design-vue/pull/3172))
+- **table:** 修复虚拟滚动条开启时 sticky-header 吸顶失效 ([#3170](https://github.com/arco-design/arco-design-vue/pull/3170))
+- **table:** table动态切换row-selection时恢复默认样式 ([#3155](https://github.com/arco-design/arco-design-vue/pull/3155))
+
+
+## 2.55.2
+
+`2024-05-10`
+
+### 🐛 问题修复
+
+- **verification-code:** 修复粘贴时`formatter`未生效 ([#3110](https://github.com/arco-design/arco-design-vue/pull/3110))
+- **upload:** 修复上传组件预览样式引入缺失 ([#3101](https://github.com/arco-design/arco-design-vue/pull/3101))
+- **transfer:** 修复 simple 模式下禁用失效 ([#3067](https://github.com/arco-design/arco-design-vue/pull/3067))
+- **color-picker:** 修复样式按需导入错误 ([#3052](https://github.com/arco-design/arco-design-vue/pull/3052))
+
+### 💅 样式更新
+
+- **color-picker:** 优化颜色控制条背景圆角样式 ([#3116](https://github.com/arco-design/arco-design-vue/pull/3116))
+
+### 🆎 类型修正
+
+- correct the type definition for popupContainer ([#2998](https://github.com/arco-design/arco-design-vue/pull/2998))
+
+
 ## 2.55.1
 
 `2024-03-29`

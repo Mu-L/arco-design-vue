@@ -2,6 +2,43 @@
 changelog: true
 ```
 
+## 2.55.3
+
+`2024-06-07`
+
+### 🆕 Feature
+
+- **table:** colum added the minWidth attribute ([#3157](https://github.com/arco-design/arco-design-vue/pull/3157))
+
+### 🐛 BugFix
+
+- **time-picker:** Fix issue with read-only mode still being editable ([#3173](https://github.com/arco-design/arco-design-vue/pull/3173))
+- **time-picker:** Added `placeholder` type definition ([#3173](https://github.com/arco-design/arco-design-vue/pull/3173))
+- **input:** fix display of allow-clear input button in read-only state ([#3172](https://github.com/arco-design/arco-design-vue/pull/3172))
+- **table:** fix table sticky-header failure with scrollbar ([#3170](https://github.com/arco-design/arco-design-vue/pull/3170))
+- **table:** Restore default style when table dynamically switches row-selection ([#3155](https://github.com/arco-design/arco-design-vue/pull/3155))
+
+
+## 2.55.2
+
+`2024-05-10`
+
+### 🐛 BugFix
+
+- **verification-code:** fix formatter not being applied during paste ([#3110](https://github.com/arco-design/arco-design-vue/pull/3110))
+- **upload:** import missing image styles for upload component ([#3101](https://github.com/arco-design/arco-design-vue/pull/3101))
+- **transfer:** fix disabled behavior in transfer simple mode ([#3067](https://github.com/arco-design/arco-design-vue/pull/3067))
+- **color-picker:** fix color-picker style import ([#3052](https://github.com/arco-design/arco-design-vue/pull/3052))
+
+### 💅 Style
+
+- **color-picker:** Optimize color control bar background fillet style ([#3116](https://github.com/arco-design/arco-design-vue/pull/3116))
+
+### 🆎 TypeScript
+
+- undefined ([#2998](https://github.com/arco-design/arco-design-vue/pull/2998))
+
+
 ## 2.55.1
 
 `2024-03-29`
